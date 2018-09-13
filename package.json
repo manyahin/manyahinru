@@ -1,13 +1,11 @@
 {
   "name": "about.manyahin.ru",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Home page for manyahin.ru",
+  "main": "index.htm",
   "scripts": {
-    "dev": "browser-sync start -s -f '*.htm'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "browser-sync start -s -f '*.htm'"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Ilya Manyahin",
   "license": "ISC"
 }
