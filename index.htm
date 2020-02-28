@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Илья Маняхин - Веб-Разработчик</title>
-  <link defer rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-  <link rel="preconnect" href="https://www.google-analytics.com">
   <meta name=viewport content="width=device-width,initial-scale=1">
   <meta name=description content="Илья Маняхин, Веб-Разработчик, Помогаю по любым вопросам">
   <!-- color palette: https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 -->
@@ -44,6 +42,11 @@
       margin-top: 1.4em;
     }
   </style>
+  <link rel="preload" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="preload" as="style" rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </noscript>
+  <link rel="preconnect" href="https://www.google-analytics.com">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16630944-8"></script>
   <script>
@@ -85,7 +88,7 @@
     <h3>Контакты</h3>
     <ul>
       <li>Email <a href="mailto:i.manyhahin@gmail.com">i.manyahin@gmail.com</a></li>
-      <li>Telegram <a target="_blank" href="http://t.me/manyahin">@manyahin</a></li>
+      <li>Telegram <a target="_blank" rel="noopener" href="http://t.me/manyahin">@manyahin</a></li>
     </ul>
 
     <h5>Если вы искали мотивации, то вам <a href="http://go.manyahin.ru">сюда</a> (18+)</h5>
