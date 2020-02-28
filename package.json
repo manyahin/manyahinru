@@ -4,7 +4,7 @@
   "description": "Home page for manyahin.ru",
   "main": "index.htm",
   "scripts": {
-    "dev": "browser-sync start -s -f '*.htm' --index='index.htm'"
+    "dev": "browser-sync start --server 'public' --files 'public'"
   },
   "author": "Ilya Manyahin",
   "license": "ISC",
