@@ -7,5 +7,8 @@
     "dev": "browser-sync start -s -f '*.htm' --index 'index.htm'"
   },
   "author": "Ilya Manyahin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
 }
