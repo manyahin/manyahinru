@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://manyahin.ru/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://manyahin.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://manyahin.ru/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://manyahin.ru/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://manyahin.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://manyahin.ru/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://manyahin.ru/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://manyahin.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://manyahin.ru/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://manyahin.ru/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://manyahin.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://manyahin.ru/"
+                />
+  </url>
+  
+</urlset>

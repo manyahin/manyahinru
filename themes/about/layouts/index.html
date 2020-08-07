@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<section>
+  {{ with .Site.GetPage "/about.md" }}
+    {{ .Content }}
+  {{ end }}
+  
+  <h3>{{ .Site.Params.links }}</h3>
+  <p>
+    <a target="_blank" rel="noopener" href="https://github.com/manyahin">GitHub</a> •
+    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/manyahin/">LinkedIn</a> •
+    <a target="_blank" rel="noopener" href="https://instagram.com/manyahin/">Instagram</a> •
+    <a target="_blank" rel="noopener" href="https://twitter.com/manyahin">Twitter</a>
+  </p>
+
+  <h3>{{ .Site.Params.contacts }}</h3>
+  <ul>
+    <li>Email <a href="mailto:i.manyhahin@gmail.com">i.manyahin@gmail.com</a></li>
+    <li>Telegram <a target="_blank" rel="noopener" href="http://t.me/manyahin">@manyahin</a></li>
+  </ul>
+
+  {{ if eq .Site.Params.showMotivationLink true }}
+    <h5>Если вы искали мотивации, то вам <a href="http://go.manyahin.ru">сюда</a> (Внимание, ненормативная лексика)</h5>
+  {{ end }}
+</section>
+
+{{ end }}

@@ -1,0 +1,38 @@
+html {
+  border-top: 0.2em solid black;
+}
+body {
+  max-width: 700px;
+  font-size: 1.1rem;
+}
+section {
+  padding: 0 1em 1em 1em;
+  line-height: 1.4rem;
+}
+a {
+  text-decoration: none;
+  color: #457B9D;
+}
+p {
+  text-indent: 0.6em;
+}
+a:hover {
+  color: #E63946;
+}
+ul {
+  padding-left: 1.7em;
+}
+ul li {
+  line-height: 1.3em;
+  margin-bottom: 0.2em;
+}
+h1 {
+  margin: 0.9em 0;
+  line-height: 1.1em;
+}
+h2 {
+  line-height: 1.2em;
+}
+h3 {
+  margin-top: 1.4em;
+}
