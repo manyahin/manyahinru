@@ -4,7 +4,19 @@
   {{ with .Site.GetPage "/about.md" }}
     {{ .Content }}
   {{ end }}
-  
+
+  <h3>{{ .Site.Params.projects }}</h3>
+  <ul>
+    <li>
+      <a href="{{ .Site.Params.telebotUrl }}">
+        {{ .Site.Params.telebot }}
+      </a>
+    </li>
+    {{ if eq .Site.Params.showMotivationLink true }}
+      <li>💀 <a href="http://go.manyahin.ru">Мотивация</a> <small>(внимание, ненормативная лексика)</small></li>
+    {{ end }}
+  </ul>
+
   <h3>{{ .Site.Params.links }}</h3>
   <p>
     <a target="_blank" rel="noopener" href="https://github.com/manyahin">GitHub</a> •
@@ -19,9 +31,7 @@
     <li>Telegram <a target="_blank" rel="noopener" href="http://t.me/manyahin">@manyahin</a></li>
   </ul>
 
-  {{ if eq .Site.Params.showMotivationLink true }}
-    <h5>Если вы искали мотивации, то вам <a href="http://go.manyahin.ru">сюда</a> (Внимание, ненормативная лексика)</h5>
-  {{ end }}
+  
 </section>
 
 {{ end }}

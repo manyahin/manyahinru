@@ -1,41 +1,57 @@
 theme = "about"
 disableHugoGeneratorInject = true
+disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS"]
 
 languageCode = "en-us"
 
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
-[params]
-  showMotivationLink = false
-
 [languages]
   [languages.ru]
     languageCode = "ru"
     baseURL = "https://manyahin.ru"
+
     title = "Илья Маняхин - Веб-Разработчик"
+    author = "Илья Маняхин"
     keywords = "веб-разработка, разработка сервисов, разработка приложений"
     description = "Помощь малому бизнесу в автоматизации любых задач"
     weight = 1
+
     links = "Ссылки"
     contacts = "Контакты"
-    author = "Илья Маняхин"
+    projects = "Проекты"
+    
     googleAnalytics = "UA-16630944-8"
     showMotivationLink = true
+    
     pageNotFound = "Страница не найдена"
     pleaseReturnTo = "Пожалуйста, вернитесь на"
     toName = "главную"
+
+    telebot = "⚡️ Телебот - конструтор Телеграм магазинов"
+    telebotUrl = "https://telebot.manyahin.ru"
       
   [languages.en]
+    languageCode = "en"
     baseURL = "https://manyahin.com"
-    author = "Ilya Manyahin"
+
     title = "Ilya Manyahin - Full Stack Developer"
+    author = "Ilya Manyahin"
     keywords = "full-stack developer, web developer"
     description = "Help to small buisness to automate any tasks"
     weight = 2
+
     links = "Links"
     contacts = "Contacts"
+    projects = "Projects"
+
     googleAnalytics = "UA-16630944-10"
+    showMotivationLink = false
+
     pageNotFound = "Page not found"
     pleaseReturnTo = "Please return to"
     toName = "index page"
+
+    telebot = "⚡️ Telebot - constructor of Telegram shops"
+    telebotUrl = "https://telebot.manyahin.com"
