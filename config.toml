@@ -31,6 +31,9 @@ defaultContentLanguageInSubdir = true
 
     telebot = "⚡️ Телебот - конструтор Телеграм магазинов"
     telebotUrl = "https://telebot.manyahin.ru"
+
+    mydiary = "📘 MyDiary - приватный дневник с открытым исходным кодом"
+    mydiaryUrl = "https://github.com/manyahin/mydiary"
       
   [languages.en]
     languageCode = "en"
@@ -55,3 +58,6 @@ defaultContentLanguageInSubdir = true
 
     telebot = "⚡️ Telebot - constructor of Telegram shops"
     telebotUrl = "https://telebot.manyahin.com"
+
+    mydiary = "📘 MyDiary - private diary in open-source"
+    mydiaryUrl = "https://github.com/manyahin/mydiary"
