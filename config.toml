@@ -33,6 +33,8 @@ defaultContentLanguageInSubdir = true
 
     mydiary = "📘 MyDiary - приватный дневник с открытым исходным кодом"
     mydiaryUrl = "https://github.com/manyahin/mydiary"
+
+    resumeLink = "Ссылка на полное резюме (CV)"
       
   [languages.en]
     languageCode = "en"
@@ -60,3 +62,5 @@ defaultContentLanguageInSubdir = true
 
     mydiary = "📘 MyDiary - private diary in open-source"
     mydiaryUrl = "https://github.com/manyahin/mydiary"
+
+    resumeLink = "Link to full resume (CV)"

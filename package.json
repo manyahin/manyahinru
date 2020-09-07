@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "description": "Home page for manyahin.ru",
   "scripts": {
-    "dev": "hugo server"
+    "dev": "hugo server",
+    "build": "hugo build"
   },
   "keywords": ["hugo"],
   "author": "Ilya Manyahin",
