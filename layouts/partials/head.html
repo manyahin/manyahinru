@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <title>{{ .Title }}</title>
+  <title>{{ .Site.Params.title }}</title>
   <meta name=author content="{{ .Site.Params.author }}">
   <meta name=keywords content="{{ .Site.Params.keywords }}">
   <meta name=viewport content="width=device-width, initial-scale=1">
@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
   <link rel="preconnect" href="https://www.google-analytics.com">
 
-  <!-- color palette: https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 -->
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 
   {{ template "_internal/google_analytics_async.html" . }}
