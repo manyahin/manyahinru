@@ -1,0 +1,11 @@
+<section id="footer">
+  {{ if eq .Site.Params.languageCode "ru" }}
+    <a href="https://manyahin.com">🇬🇧 english version</a>
+    <div>Илья Маняхин © 2008 - {{ now.Year }}</div>
+  {{ end }}
+  {{ if eq .Site.Params.languageCode "en" }}
+    <a href="https://manyahin.ru">🇷🇺 русская версия</a>
+    <div>Ilya Manyahin © 2008 - {{ now.Year }}</div>
+  {{ end }}
+</section>
+
