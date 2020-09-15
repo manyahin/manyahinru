@@ -1,7 +1,7 @@
 ---
 ---
 
-# ✋ Hello, my name is Ilya Manyahin
+# 👋 Hello, my name is Ilya Manyahin
 
 ## I'm a Full-Stack Web Developer and Infrastructure specialist
 
