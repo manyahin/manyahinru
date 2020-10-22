@@ -1,12 +1,14 @@
 {
   "name": "about.manyahin.ru",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Home page for manyahin.ru",
   "scripts": {
     "dev": "hugo server",
-    "build": "hugo build"
+    "build": "hugo"
   },
-  "keywords": ["hugo"],
+  "keywords": [
+    "hugo"
+  ],
   "author": "Ilya Manyahin",
   "license": "ISC"
 }
