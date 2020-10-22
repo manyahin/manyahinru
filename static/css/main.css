@@ -5,10 +5,13 @@ html {
   border-top: 0.2em solid #111;
 }
 body {
-  max-width: 768px;
   font-size: 1.1rem;
   font-family: sans-serif;
   color: #111;
+}
+.container {
+  max-width: 768px;
+  margin: 0 auto;
 }
 section {
   padding: 0 1em 1em 1em;

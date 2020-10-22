@@ -6,7 +6,7 @@ The source code of [manyahin.ru](https://manyahin.com) and [manyahin.com](https:
 
 ```bash
 # run live reload server
-$ npm dev
+$ npm run dev
 
 # build public folder
 $ npm run build
