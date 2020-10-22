@@ -57,5 +57,13 @@ h3 {
 }
 #footer {
   font-size: 85%;
-  color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  #footer {
+    flex-direction: column;
+  }
 }
